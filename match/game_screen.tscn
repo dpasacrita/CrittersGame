@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://b5b3kdr7tps35"]
+
+[ext_resource type="Script" uid="uid://ievkkkrpn2ek" path="res://match/game_screen.gd" id="1_f1ecl"]
+
+[node name="GameScreen" type="Control" unique_id=1312558236]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_f1ecl")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=547719426]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=884809028]
+layout_mode = 2
+
+[node name="OpponentHand" type="HBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=612034670]
+layout_mode = 2
+
+[node name="PlayArea" type="VBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=612559168]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+
+[node name="OpponentPlayedLabel" type="Label" parent="MarginContainer/VBoxContainer/PlayArea" unique_id=1884568381]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="StatusLabel" type="Label" parent="MarginContainer/VBoxContainer/PlayArea" unique_id=610901426]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="PlayerPlayedLabel" type="Label" parent="MarginContainer/VBoxContainer/PlayArea" unique_id=332738875]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="PlayerHand" type="HBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=779221194]
+layout_mode = 2
+
+[node name="Controls" type="VBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=1455555271]
+layout_mode = 2
+size_flags_horizontal = 8
+
+[node name="QuitButton" type="Button" parent="MarginContainer/VBoxContainer/Controls" unique_id=1489386222]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 4
+text = "Quit"
