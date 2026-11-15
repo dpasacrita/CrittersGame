@@ -4,6 +4,7 @@
 
 [resource]
 script = ExtResource("1_r4bxf")
+card_name = "Squirrel"
 health = 2
 flavor_text = "Climb!"
 metadata/_custom_type_script = "uid://2yfitxu1ahv5"
