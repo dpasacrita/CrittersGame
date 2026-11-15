@@ -22,8 +22,8 @@ func _ready() -> void:
 	# Buttons
 	quit_button.pressed.connect(_on_quit_pressed)
 
-	player.build_placeholder_deck()
-	opponent.build_placeholder_deck()
+	player.build_deck_from_pool(20, ["core"])
+	opponent.build_deck_from_pool(20, ["core"])
 	player.draw_cards(HAND_SIZE)
 	opponent.draw_cards(HAND_SIZE)
 

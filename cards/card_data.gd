@@ -6,6 +6,8 @@ extends Resource
 @export var attack: int = 1
 @export var health: int = 1
 @export var ability_text: String = ""
+@export var flavor_text: String = ""
+@export var max_available: int = 4
 
 
 func get_display_text() -> String:

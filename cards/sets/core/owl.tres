@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://c3frg1mapu8nd"]
+
+[ext_resource type="Script" uid="uid://2yfitxu1ahv5" path="res://cards/card_data.gd" id="1_ofh6k"]
+
+[resource]
+script = ExtResource("1_ofh6k")
+card_name = "Owl"
+cost = 3
+attack = 2
+health = 3
+ability_text = "Flight"
+flavor_text = "Soar!"
+max_available = 2
+metadata/_custom_type_script = "uid://2yfitxu1ahv5"

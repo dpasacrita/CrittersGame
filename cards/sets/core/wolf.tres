@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dft6u8l4w2o4r"]
+
+[ext_resource type="Script" uid="uid://2yfitxu1ahv5" path="res://cards/card_data.gd" id="1_0vxmx"]
+
+[resource]
+script = ExtResource("1_0vxmx")
+card_name = "Wolf"
+cost = 3
+attack = 4
+health = 3
+flavor_text = "Growl!"
+max_available = 3
+metadata/_custom_type_script = "uid://2yfitxu1ahv5"

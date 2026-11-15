@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://nq2rbx6joauo"]
+
+[ext_resource type="Script" uid="uid://2yfitxu1ahv5" path="res://cards/card_data.gd" id="1_djgmw"]
+
+[resource]
+script = ExtResource("1_djgmw")
+card_name = "Turtle"
+cost = 2
+health = 4
+flavor_text = "Shelled!"
+metadata/_custom_type_script = "uid://2yfitxu1ahv5"

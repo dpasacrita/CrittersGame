@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://b6mhdw0f71cnv"]
+
+[ext_resource type="Script" uid="uid://2yfitxu1ahv5" path="res://cards/card_data.gd" id="1_be07i"]
+
+[resource]
+script = ExtResource("1_be07i")
+card_name = "Bear"
+cost = 4
+attack = 5
+health = 5
+flavor_text = "Roar!"
+max_available = 2
+metadata/_custom_type_script = "uid://2yfitxu1ahv5"

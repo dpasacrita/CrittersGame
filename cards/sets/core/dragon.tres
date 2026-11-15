@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://cnmx3ff8vgjdg"]
+
+[ext_resource type="Script" uid="uid://2yfitxu1ahv5" path="res://cards/card_data.gd" id="1_3jfst"]
+
+[resource]
+script = ExtResource("1_3jfst")
+card_name = "Dragon"
+cost = 5
+attack = 7
+health = 6
+flavor_text = "Burn!"
+max_available = 1
+metadata/_custom_type_script = "uid://2yfitxu1ahv5"
